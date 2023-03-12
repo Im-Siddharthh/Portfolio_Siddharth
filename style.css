@@ -25,7 +25,7 @@ body {
 
 .dark-theme {
   --primarybg: #ffffff;
-  --secondarybg: #f6fff8;
+  --secondarybg: #ededed;
   --textprimary: #141c3a;
   --textsecondary: #110f15;
   --boxshadowcolor: #ffffff73;
