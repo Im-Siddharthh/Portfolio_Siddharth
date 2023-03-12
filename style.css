@@ -5,6 +5,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body {
+  margin: 0;
+}
 
 :root {
   --primarybg: #ffffff;
@@ -379,16 +382,14 @@ a {
 
   .skills-outer {
     padding: 0px;
+    margin: 0px;
     max-width: 100%;
   }
-  .skills {
-    margin-top: 20px;
-    max-width: 100%;
-    grid-template-columns: 100px 120px;
-    grid-gap: 10px;
-    justify-content: center;
-    align-items: center;
+
+  .skills-outer h3 {
+    margin: 2px 0px;
   }
+
   .one1 {
     max-width: 80%;
   }
@@ -485,17 +486,6 @@ a {
   align-items: center;
 }
 
-/* .one1 {
-  max-width: 100px;
-}
-
-.two2 {
-  max-width: 120px;
-}
-
-.three {
-  max-width: 150px;
-} */
 .skills__skill {
   height: 45px;
   display: flex;
@@ -993,7 +983,7 @@ a {
   display: flex;
   /* flex-direction: column; */
   /* flex-wrap: wrap; */
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .con-circle {
@@ -1027,6 +1017,25 @@ a {
   left: -13px;
 }
 
+@media screen and (max-width: 450px) {
+  .input-container label {
+    left: 0px;
+    padding: 0 0.2rem;
+    font-size: 0.7rem;
+  }
+
+  .input {
+    padding: 0.6rem 0.4rem;
+  }
+
+  .contact-container {
+    left: 5%;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+}
 form {
   padding: 2.3rem 2.2rem;
   z-index: 10;
