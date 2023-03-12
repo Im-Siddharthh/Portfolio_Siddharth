@@ -91,9 +91,9 @@ let icon = document.getElementById("icon1");
 icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
-    icon1.src = "images.png";
-  } else {
     icon1.src = "110827_moon_icon.svg";
+  } else {
+    icon1.src = "images.png";
   }
 };
 
@@ -101,8 +101,8 @@ let icon3 = document.getElementById("icon2");
 icon3.onclick = function () {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
-    icon2.src = "images.png";
-  } else {
     icon2.src = "110827_moon_icon.svg";
+  } else {
+    icon2.src = "images.png";
   }
 };
